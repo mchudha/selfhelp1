@@ -3,8 +3,14 @@ body {
 }
 header {
     font-size: 36px;
+    height: 200px;
+    background: linear-gradient(45deg, rgba(140,68,139,1) 0%, rgba(187,146,196,1) 100%);
+}
+header h1 {
+    vertical-align: middle;
 }
 .sidebar {
+    background: white;
     width: 600px;
     display: inline-block;
 }
@@ -15,4 +21,7 @@ header {
 .sidebar.right {
     float: right;
     margin-right: 150px;
+}
+img {
+    border: 2px solid black;
 }
