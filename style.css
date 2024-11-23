@@ -2,9 +2,17 @@ body {
     font-family: Candara;
 }
 header {
-    font-size: 48px;
+    font-size: 36px;
 }
-span.centered {
-    width: 300px;
-    text-align: center;
+.sidebar {
+    width: 600px;
+    display: inline-block;
+}
+.sidebar.left {
+    float: left;
+    margin-left: 150px;
+}
+.sidebar.right {
+    float: right;
+    margin-right: 150px;
 }
