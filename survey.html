@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html>
     <body>
+        <span>Time: <span><input id="timeofday" type="time"></span></span>
         <h1>Are you eating three meals a day?</h1>
-        <input type="radio" name="threemeals">yes
-        <input type="radio" name="threemeals">nogit 
+        <input type="radio" name="threemeals" class="threemeals">yes
+        <input type="radio" name="threemeals" class="threemeals">no
         <h1>Do you drink atleast two cups of water everyday</h1>
-        <input type="radio" name="twocups">yes
-        <input type="radio" name="twocups">no
+        <input type="radio" name="twocups" class="twocups">yes
+        <input type="radio" name="twocups" class="twocups">no
         <h1>Do you feel focused throughout the day?</h1>
-        <input type="radio" name="focused">yes
-        <input type="radio" name="focused">no
+        <input type="radio" name="focused" class="focused">yes
+        <input type="radio" name="focused" class="focused">no
         <h1>Are you feeling good physically?</h1>
-        <input type="radio" name="good">yes 
-        <input type="radio" name="good">no
-        <h1></h1>
-    </body>y
+        <input type="radio" name="good" class="good">yes 
+        <input type="radio" name="good" class="good">no
+        <p id="advice"></p>
+    </body>
+    <script src="script.js"></script>
 </html>
