@@ -2,25 +2,28 @@ body {
     font-family: Candara;
 }
 header {
+    padding: 2vh;
     font-size: 36px;
-    height: 200px;
     background: linear-gradient(45deg, rgba(140,68,139,1) 0%, rgba(187,146,196,1) 100%);
 }
 header h1 {
     vertical-align: middle;
 }
 .sidebar {
-    background: white;
-    width: 600px;
+    background: #ccb3cf;
+    width: 43.98vw;
     display: inline-block;
+    height: 60vh;
 }
 .sidebar.left {
     float: left;
-    margin-left: 150px;
+    padding: 1vh;
+    padding-left: 5vw;
 }
 .sidebar.right {
     float: right;
-    margin-right: 150px;
+    padding: 1vh;
+    padding-right: 5vw;
 }
 img {
     border: 2px solid black;
