@@ -1,0 +1,10 @@
+body {
+    font-family: Candara;
+}
+header {
+    font-size: 48px;
+}
+span.centered {
+    width: 300px;
+    text-align: center;
+}
