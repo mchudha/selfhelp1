@@ -108,8 +108,8 @@ function mainloop() {
                 "evening": "Perhaps an early night would be best.",
                 "night": "Sleep it off - let your body naturally recover."
             }[time]);
-            adviceBox.innerHTML = "<ul><li>" + adviceItems.join("</li><li>") + "</li></ul>";
         };
+        adviceBox.innerHTML = "<ul><li>" + adviceItems.join("</li><li>") + "</li></ul>";
     };
     requestAnimationFrame(mainloop);
 };
